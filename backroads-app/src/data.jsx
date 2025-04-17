@@ -99,7 +99,7 @@ export const tours = [
     id: 6,
     image: tour6,
     date: 'august 26th, 2020',
-    title: 'jeLorem ipsum dolor sit amet consectetur',
+    title: 'jeLorem ipsum dolor sit amet consecteturi',
     info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quodexercitationem fugit, qui corporis.',
     location: 'Finland',
     duration: '6',
