@@ -28,7 +28,7 @@ export const services = [
     id: 1,
     icon: 'fas fa-wallet fa-fw',
     title: 'saving money',
-    text: 'jeLorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.e',
+    text: 'jeLorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores, officia.ei',
   },
   {
     id: 2,
