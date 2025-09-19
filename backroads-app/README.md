@@ -1,3 +1,3 @@
 # React + Vite
 
-This project is initialized with Vite
+This project is initialized with Vite..
