@@ -9,7 +9,7 @@ This repository contains a variety of React applications showcasing different co
 
 🌟 Goals
 
-Master React.js and modern JavaScript (ES6+)
+Master React.js, Next.js and modern JavaScript (ES6+)
 
 Gain hands-on experience with popular front-end tools and libraries
 
