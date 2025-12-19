@@ -12,6 +12,7 @@ const App = () => {
         {people.length} bdays coming
       </h3>
       <List people = {people}/>
+      <button type="button" className="btn btn-block" onClick={() => setPeople([])}> Clear list </button>
     </section>
   </main>
   //return <h2>Birthday Reminder - Starter</h2>;
