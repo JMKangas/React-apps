@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Loading from "./Loading";
+import Tours from "./Tours";
 
 const url = 'https://www.course-api.com/react-tours-project';
 
@@ -8,6 +9,10 @@ const App = () => {
   let [isLoading, setIsLoading] = useState(true)
   const [tours, setTours] = useState([])
 
+const removeTour = (id) => {
+  const newArray = tours.filter((tour) => tour.id !== id);
+  setTours(newArray);
+}
   const fetchTours = async () => {
     setIsLoading(true);
     try {
@@ -30,6 +35,8 @@ const App = () => {
     </main>
   }
 
-  return <h2>Tours Starter</h2>
+  return <main>
+    <Tours tours = {tours} removeTour={removeTour}/>
+  </main>
 };
 export default App;
