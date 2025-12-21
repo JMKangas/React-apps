@@ -3,7 +3,7 @@
 [Menu](https://www.figma.com/file/PwlnSJXCuo4qD2o6EJiuj9/Menu?node-id=0%3A1&t=oaKVwYVqc9Oon2Ts-1)
 
 ## Steps
-
+    
 #### Title Component
 
 First, you need to create a Title component to display the main title of your app. This component can be a simple function that returns a heading element with the app title.
